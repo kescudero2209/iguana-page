@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  background-image: url("../imgs/bg-header.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*IGUANAS*/
+h2 {
+  margin: 0px;
+}
+/*FONDO IGUANAS*/
+.titulo {
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+}
+/*Descripcion principal*/
+.descriptions {
+  display: flex;
+  margin-top: 800px;
+  justify-content: center;
+}
+
+.description p {
+  color: pink; /* le da color al icono, relleno del div*/
+  width: 400px;
+}
+
+.descriptions img {
+  width: 400px;
+  height: 200px;
+  border: 1px dotted white;
+  margin-left: 50px;
+}
+
+/*caracteristicas*/
+.features {
+  background-color: #1e1a13;
+  text-align: center;
+  color: white;
+  display: flow-root; /*toma por el tamaño de los hijos*/
+  margin-top: 50px;
+}
+
+.feature {
+  float: left;
+  padding: 50px 10px 30px 10px;
+  width: 30%;
+}
+.feature i {
+  padding: 10px;
+}
+/*con el justify me queda al centro y con el margin left de .imges img se separa un poco*/
+.imges {
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+}
+
+.imges img {
+  width: 350px;
+  height: 200px;
+  margin-left: 10px;
+}
+h1 {
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer {
+  height: 100px;
+  line-height: 6em;
+  background-color: gray;
+  color: black;
+  text-align: center;
+  font-weight: 900;
+  width: 100%;
+}
